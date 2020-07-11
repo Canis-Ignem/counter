@@ -85,6 +85,8 @@ public class MainActivity extends AppCompatActivity {
 
     // method to loop through results trying to find a number
     private int getNumberFromResult(ArrayList<String> results) {
+        String s = results.toString();
+
 
         for (String str : results) {
 
